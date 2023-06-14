@@ -1,6 +1,7 @@
 *{
     background-color: #ABD7EB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: auto;
 }
 
 h1{
@@ -11,4 +12,7 @@ h1{
 }
 h2{
     font-size: large;
+}
+li{
+    margin: 5px;
 }
