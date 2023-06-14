@@ -16,3 +16,10 @@ h2{
 li{
     margin: 5px;
 }
+button{
+    margin-left: 90px;
+    background-color: pink;
+    width: auto;
+    padding: 50px;
+    font-size: large;
+}
