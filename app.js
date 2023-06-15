@@ -46,6 +46,41 @@ function quiz() {
         if (q3 === "y" || q3 === "yes"){
             alert ("Nope, not the right answer I'm afraid. The capital of America is actually Washington D.C")
         }
+            else if (q3 === "n" || q3 === "no"){
+                alert ("Congrats, that's the right answer. You sure you're not looking these up?")
+                score++
+            }
+            else {
+                alert(notYesOrNo);
+                quiz()
+            }
+    q4 = prompt(" Question 4: Is Marrakesh the capital of Morroco?") .toLowerCase()
+        if (q4 === "y" || q4 === "yes"){
+            alert ("That's correct! The last question s a tricky one so I'm gonna be impressed if you get that one right as well. ")
+            score++
+        }
+            else if (q4 === "n" || q4 === "no"){
+                alert ("Oooh unlucky, that's not the right answer. Lets be honest with each other here, you're just guessing at this point aren't you?")
+            }
+            else {
+                alert(notYesOrNo);
+                quiz()
+            }
+    q5 = prompt("Question 5: Is Jerusalem the capital of Israel?") .toLowerCase()
+        if (q5 === "yes" || q5 === "y"){
+            alert("Sorry, that's not the right answer. The capital of Israel is actually Tel Aviv.")
+        }
+            else if (q5 === "no" || q5 ==="n"){
+                alert ("Well done, I'm very impressed you got this one! As I'm sure you know, Tel Aviv is actually the capital of Israel.")
+                score++
+            }
+            else {
+                alert(notYesOrNo);
+                quiz() 
+            }
+    alert (" Thank you for completing my quiz, you got " + score + "/5 questions correct.")
+        
+
     console.log (score);
 }
 
